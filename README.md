@@ -1,5 +1,5 @@
 # indie-statistics
-![Image of KyojinIndie](https://github.com/kyojinindie/indie-statistics/kyojinIndie.png)
+![Image of KyojinIndie](https://github.com/kyojinindie/indie-statistics/blob/master/kyojinIndie.png)
 
 
 This is a open source project.
