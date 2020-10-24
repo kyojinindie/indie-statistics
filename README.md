@@ -8,7 +8,7 @@ Is a library that provides an API whit some statistic descriptive function.
 
 ### **USAGE**
 
-git clone 
+git clone https://github.com/kyojinindie/indie-statistics.git
 
 ### **API**
 
