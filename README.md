@@ -11,4 +11,4 @@ Is a library that provides an API whit some statistic descriptive function.
 
 Modifier and type | Method and description
 ------------ | -------------
-Number | mean(ArrayList<Number> numberList ) Returns mean
+Number | mean(`ArrayList<Number> numberList` ) Returns mean
