@@ -6,6 +6,9 @@ This is a open source project.
 
 Is a library that provides an API whit some statistic descriptive function.
 
+### **USAGE**
+
+git clone 
 
 ### **API**
 
