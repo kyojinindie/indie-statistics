@@ -1,5 +1,11 @@
 package com.kyojin.indie.statistics;
 
+/*
+ * Powered by: Kyojin-Indie
+ * 
+ * Author: Erick Roberto Medina Lavielle
+ * */
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Map;
