@@ -8,7 +8,13 @@ Is a library that provides an API whit some statistic descriptive function.
 
 ### **USAGE**
 
-git clone https://github.com/kyojinindie/indie-statistics.git
+Download jar file.
+
+Add jar into your project.
+
+Open source is a development methodology; free software is a social movement.
+
+Happy Hacking :)
 
 ### **API**
 
