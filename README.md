@@ -19,8 +19,8 @@ Open source is a development methodology; free software is a social movement.
 Happy Hacking :)
 
 ### **Example**
-
-`ArrayList<Number> numberList = new ArrayList<Number>();
+`
+ArrayList<Number> numberList = new ArrayList<Number>();
 		
 		numberList.add(1);
 		numberList.add(2);
