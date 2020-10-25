@@ -44,8 +44,14 @@ public class Statistic {
 		return Math.sqrt(s/(numberList.size() -1));
 	}
 	
-	public static void populationStandardDeviation() {
-		
+	public static Number populationStandardDeviation(ArrayList<Number> numberList) {
+		clear();
+		numberList.forEach(n -> {
+			s += Math
+					.pow(n.doubleValue() - mean(numberList).doubleValue(), 2);
+		});
+		 
+		return Math.sqrt(s/numberList.size());
 	}
 	
 	private static void clear() {
