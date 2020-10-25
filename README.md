@@ -50,4 +50,4 @@ Number | populationStandardDeviation(`ArrayList<Number> numberList`) Returns pop
 
 Modifier and type | Method and description
 ------------ | -------------
-`Map<String,Double>` | bernulli(int favorableCases, int probableCases) Returns Map with succes and failure probabilities..
+`Map<String,Double>` | bernulli(int favorableCases, int probableCases) Returns Map with succes and failure probabilities.
