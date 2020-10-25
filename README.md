@@ -44,3 +44,4 @@ Number | mean(`ArrayList<Number> numberList` ) Returns mean.
 Number | median(`ArrayList<Number> numberList`)Function sort that data set and returns the element of data set (X1, X2,…, XN) that leaves half the values to the left and right.
 Number | mode(`ArrayList<Number> numberList`) Returns the most repeated value in data set.
 Number | sampleStandardDeviation(`ArrayList<Number> numberList`) Returns sample Standar deviation.
+Number | populationStandardDeviation(`ArrayList<Number> numberList`) Returns population standard deviation
