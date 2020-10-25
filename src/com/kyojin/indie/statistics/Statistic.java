@@ -16,6 +16,7 @@ public class Statistic {
 	
 	private static Double mean;
 	private static Double s;
+	private static Double kurtosis;
 	
 	public static Number mean(ArrayList<Number> numberList ) {
 		clear();
@@ -54,8 +55,19 @@ public class Statistic {
 		return Math.sqrt(s/numberList.size());
 	}
 	
+	public static Number kurtosisUngroupedData(ArrayList<Number> numberList) {
+		clear();
+		
+		numberList.forEach(n -> {
+			kurtosis += Math.pow((n.doubleValue()-mean(numberList).doubleValue()), 4);
+		});
+		return kurtosis/(numberList.size()*Math
+				.pow(populationStandardDeviation(numberList).doubleValue(), 4));
+	}
+	
 	private static void clear() {
 		mean = 0.0;
 		s = 0.0;
+		kurtosis = 0.0;
 	}
 }
