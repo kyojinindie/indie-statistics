@@ -29,25 +29,29 @@ Number | mode(`ArrayList<Number> numberList`) Returns the most repeated value in
 Number | sampleStandardDeviation(`ArrayList<Number> numberList`) Returns sample Standar deviation.
 Number | populationStandardDeviation(`ArrayList<Number> numberList`) Returns population standard deviation.
 Number | kurtosisUngroupedData(`ArrayList<Number> numberList` ) Returns kurtosis ungrouped data.
+Number | populationStandardError(ArrayList<Number> numberList) Returns population standard error.
+Number | sampleStandardError(ArrayList<Number> numberList) Returns sample standard error.
+Number | pearsonCoefficientSkewness(ArrayList<Number> numberList) Returns Pearson coefficient skewness.
 
 ### **Example-Statistics**
 
 ```java
-ArrayList<Number> numberList = new ArrayList<Number>();
+Double[] myArray ={0.09,0.13,0.41,0.51,1.12,1.20,1.49,3.18,3.50,6.36,7.83,8.92,10.13,12.99,16.40};
+		ArrayList<Number> sample = new ArrayList<Number>();
 		
-		numberList.add(1);
-		numberList.add(2);
-		numberList.add(6);
-		numberList.add(7);
-		numberList.add(3);
-		numberList.add(4);
-		
-		System.out.println(Statistic.mean(numberList).doubleValue());
-		System.out.println(Statistic.median(numberList).doubleValue());
-		System.out.println(Statistic.mode(numberList).doubleValue());
-		System.out.println(Statistic.sampleStandardDeviation(numberList).doubleValue());
-		System.out.println(Statistic.populationStandardDeviation(numberList).doubleValue());
-		System.out.println(Statistic.kurtosisUngroupedData(numberList).doubleValue());
+		for(int i = 0; i< myArray.length;i++) {
+			sample.add(myArray[i]);
+		}
+		DispersionImpl disp = new DispersionImpl();
+		System.out.println(disp.kurtosisUngroupedData(sample).doubleValue());
+		System.out.println(disp.mean(sample).doubleValue());
+		System.out.println(disp.median(sample).doubleValue());
+		System.out.println(disp.mode(sample).doubleValue());
+		System.out.println(disp.pearsonCoefficientSkewness(sample).doubleValue());
+		System.out.println(disp.populationStandardDeviation(sample).doubleValue());
+		System.out.println(disp.populationStandardError(sample).doubleValue());
+		System.out.println(disp.sampleStandardDeviation(sample).doubleValue());
+		System.out.println(disp.sampleStandardError(sample).doubleValue());
 ```
 
 ### **API-DiscreteDistribution**
